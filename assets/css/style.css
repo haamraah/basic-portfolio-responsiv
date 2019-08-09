@@ -1,0 +1,286 @@
+body {
+    background-image: url("../img/papyrus-bg.png");
+    background-repeat: repeat;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.longDiv {
+    border: 2px solid #cccccc;
+    margin: auto;
+    width: 99.4%;
+    height: 85px;
+    /* overflow: auto; */
+    clear: both;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.headerDiv {
+    width: 960px;
+    height: 85px;
+    margin: auto;
+    /* overflow: auto; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* visited link */
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/* selected link */
+
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+#links {
+    text-align: right;
+    /* color: gray; */
+    padding-top: 40px;
+    padding-right: 15px;
+    float: right;
+}
+
+#logo {
+    height: 55px;
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+    /* text-align: left; */
+    background-color: #dddddd;
+    margin: 0 0 0 0;
+}
+
+#mainBio {
+    /* padding: 10px 10px 10px 10px; */
+    /* float: left; */
+    text-align: justify;
+}
+
+#logo, #imgSection {
+    float: left;
+}
+
+#insideTitle {
+    margin: 0 15px 0 15px;
+}
+
+#imgSection {
+    width: 200px;
+    height: 200px;
+    /* margin-right: 10px; */
+    /* margin-left: 15px; */
+    margin: 15px 10px 10px 10px;
+}
+
+/* this DIV holding all the content in the middle */
+
+.myDiv {
+    border: 2px solid #dddddd;
+    padding: 15px 15px 15px 15px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 930px;
+    background-color: #ffffff;
+    /* clear: both; */
+    overflow: auto;
+}
+
+/* contact page style */
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#submitButton {
+    background-color: #dddddd;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* gallery page style */
+
+.imgs {
+    height: 250px;
+    width: 250px;
+    margin: 15px 15px 15px 15px;
+}
+
+.imgSections {
+    position: relative;
+    float: left;
+}
+
+.imgLable {
+    padding-top: 15px;
+    text-align: center;
+    height: 35px;
+    width: 89.5%;
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    background-color: cadetblue;
+}
+
+.mainSection {
+    float: left;
+}
+
+a.galleryLinks:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* mouse over link */
+
+a.galleryLinks:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* selected link */
+
+a.galleryLinks:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footerDiv {
+    background-color: #666666;
+    padding-top: 20px;
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    text-align: center;
+    /* clear: both; */
+    border-top: 10px solid gray;
+}
+
+/* responsive Media css */
+
+@media screen and (max-width: 768px) {
+    /* header */
+    .longDiv {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        width: 760px;
+        height: 62px;
+    }
+    .headerDiv {
+        width: 760px;
+        height: 50px;
+    }
+    #links {
+        /* padding-left: 15px;
+        padding-right: 5px; */
+        padding: 20px 5px 0px 15px;
+        float: left;
+    }
+    #logo {
+        padding: 7px 7px 0px 0px;
+    }
+    /* main section */
+    #insideTitle {
+        font-size: 18px;
+    }
+    .myDiv {
+        width: 732px;
+        margin: 0 0 0 0;
+        padding: 5 5 5 5;
+    }
+    #imgSection {
+        margin: auto;
+        padding: 15px 5px 5px 5px;
+        /* float: none; */
+    }
+    /* footere */
+    #footerDiv {
+        padding-top: 10px;
+        position: relative;
+        width: 748px;
+
+        bottom: 0;
+        height: 20px;
+        text-align: left;
+        /* clear: both; */
+        border-top: 5px solid gray;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* header */
+    .longDiv {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        width: 460px;
+        height: 62px;
+    }
+    .headerDiv {
+        width: 450px;
+        height: 50px;
+    }
+    #links {
+        /* padding-left: 15px;
+    padding-right: 5px; */
+        padding: 20px 5px 0px 15px;
+        float: left;
+    }
+    #logo {
+        padding: 7px 7px 0px 0px;
+    }
+    /* main section */
+    #insideTitle {
+        font-size: 18px;
+    }
+    .myDiv {
+        width: 448px;
+        margin: 0 0 0 0;
+        padding: 5 5 5 5;
+    }
+    #imgSection {
+        margin: auto;
+        padding: 15px 5px 5px 5px;
+        /* float: none; */
+    }
+    /* footer */
+    #footerDiv {
+        padding-top: 10px;
+        position: relative;
+        width: 460px;
+        bottom: 0;
+        height: 20px;
+        text-align: left;
+        /* clear: both; */
+        border-top: 5px solid gray;
+    }
+}
